@@ -122,7 +122,7 @@ Contains:
 	name = "Syndicate NASA Voidsuit"
 	icon_state = "syndicate-void"
 	inhand_icon_state = "syndicate-void"
-	desc = "An old, NASA designed space suit. This one appears to been Syndicate inclined."
+	desc = "An old, NASA designed space suit. This one appears to be Syndicate inclined."
 	allowed = list(/obj/item/flashlight, /obj/item/tank/internals, /obj/item/multitool)
 
 
