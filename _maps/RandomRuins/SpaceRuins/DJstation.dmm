@@ -106,18 +106,6 @@
 "aw" = (
 /turf/open/floor/plasteel/cafeteria,
 /area/ruin/space/djstation)
-"ax" = (
-/obj/machinery/light_switch{
-	pixel_y = 28
-	},
-/turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/djstation)
-"ay" = (
-/obj/machinery/newscaster{
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/djstation)
 "az" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -142,11 +130,6 @@
 /obj/machinery/light_switch{
 	pixel_y = 28
 	},
-/turf/open/floor/plasteel/grimy,
-/area/ruin/space/djstation)
-"aD" = (
-/obj/structure/bed,
-/obj/item/bedsheet,
 /turf/open/floor/plasteel/grimy,
 /area/ruin/space/djstation)
 "aE" = (
@@ -191,12 +174,6 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/ruin/space/djstation)
 "aK" = (
-/turf/open/floor/plasteel/grimy,
-/area/ruin/space/djstation)
-"aL" = (
-/obj/machinery/sleeper{
-	dir = 8
-	},
 /turf/open/floor/plasteel/grimy,
 /area/ruin/space/djstation)
 "aM" = (
@@ -247,12 +224,6 @@
 /obj/item/paper/fluff/ruins/djstation,
 /turf/open/floor/plasteel/cafeteria,
 /area/ruin/space/djstation)
-"aS" = (
-/obj/structure/frame/computer{
-	anchored = 1
-	},
-/turf/open/floor/plasteel/grimy,
-/area/ruin/space/djstation)
 "aT" = (
 /obj/structure/chair{
 	dir = 8
@@ -261,10 +232,6 @@
 /area/ruin/space/djstation)
 "aU" = (
 /obj/machinery/light/small,
-/turf/open/floor/plasteel/grimy,
-/area/ruin/space/djstation)
-"aV" = (
-/obj/structure/closet,
 /turf/open/floor/plasteel/grimy,
 /area/ruin/space/djstation)
 "aW" = (
@@ -356,6 +323,27 @@
 /obj/structure/disposaloutlet,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
+"kT" = (
+/obj/machinery/computer/telecomms/monitor,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/space/djstation)
+"lI" = (
+/obj/structure/closet,
+/obj/item/encryptionkey/heads/captain,
+/obj/item/radio/headset/headset_cent,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/space/djstation)
+"xq" = (
+/obj/machinery/light_switch{
+	pixel_y = 28
+	},
+/obj/item/stack/cable_coil,
+/turf/open/floor/plasteel/cafeteria,
+/area/ruin/space/djstation)
+"BR" = (
+/obj/item/stack/sheet/metal/five,
+/turf/open/floor/plating,
+/area/ruin/space/djstation)
 "Co" = (
 /obj/machinery/door/airlock/external{
 	name = "Ruskie DJ Station"
@@ -364,6 +352,40 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
+/area/ruin/space/djstation)
+"CK" = (
+/obj/item/circuitboard/computer/advanced_camera,
+/turf/open/floor/plasteel/cafeteria,
+/area/ruin/space/djstation)
+"Hh" = (
+/obj/structure/bed,
+/obj/item/bedsheet,
+/obj/item/clothing/under/costume/soviet,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/space/djstation)
+"Nc" = (
+/obj/effect/mob_spawn/human/alive{
+	assignedrole = "Space DJ";
+	desc = "A humming cryopod. Seems it's attempting to wake it's occupant.";
+	important_info = "Do NOT abandon your post without cause.";
+	mob_name = "a ruskie dj";
+	name = "DJ Cryosleeper";
+	random = 1;
+	short_desc = "You are a Space DJ, bringing the people the truth. No matter how bad it hurts.";
+	show_flavour = 0;
+	uniform = /obj/item/clothing/under/costume/soviet
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ruin/space/djstation)
+"Uw" = (
+/obj/machinery/newscaster{
+	pixel_y = 32
+	},
+/obj/item/construction/rcd/loaded,
+/obj/item/rcd_ammo/large,
+/obj/item/rcd_upgrade/frames,
+/obj/item/rcd_upgrade/simple_circuits,
+/turf/open/floor/plasteel/cafeteria,
 /area/ruin/space/djstation)
 
 (1,1,1) = {"
@@ -523,7 +545,7 @@ ac
 ac
 ac
 ag
-ah
+BR
 ah
 ah
 am
@@ -605,9 +627,9 @@ ah
 ah
 ah
 af
-ax
+xq
 aw
-aH
+aw
 aR
 aw
 bc
@@ -630,8 +652,8 @@ ah
 ah
 as
 af
-ay
-aw
+Uw
+CK
 aw
 aw
 aY
@@ -683,7 +705,7 @@ aa
 af
 aB
 aK
-aS
+kT
 af
 aa
 aa
@@ -731,7 +753,7 @@ ac
 ab
 aa
 af
-aD
+Hh
 aK
 aU
 af
@@ -757,8 +779,8 @@ ab
 aa
 af
 aE
-aL
-aV
+Nc
+lI
 af
 aa
 aa
