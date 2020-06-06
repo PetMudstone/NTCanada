@@ -20,3 +20,4 @@ Add any notes or relevant information here.
 - [ ] All code is properly formatted.
 - [ ] All file names are named according to [SnakeCase.](https://en.wikipedia.org/wiki/Snake_case)
 - [ ] All sprites must be added to their respective items, to avoid the dreaded purple texture.
+- [ ] Code has been tested in-game, with successful results.
