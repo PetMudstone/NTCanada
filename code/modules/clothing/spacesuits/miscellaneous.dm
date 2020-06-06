@@ -111,21 +111,6 @@ Contains:
 	slowdown = 4
 	allowed = list(/obj/item/flashlight, /obj/item/tank/internals, /obj/item/multitool)
 
-		//Syndicate NASA Voidsuit
-/obj/item/clothing/head/helmet/space/nasavoid/syndicate
-	name = "Syndicate NASA Void Helmet"
-	desc = "An old NASA designed space suit helmet. This one appears to be Syndicate inclined."
-	icon_state = "syndicate-void"
-	inhand_icon_state = "syndicate-void"
-
-/obj/item/clothing/suit/space/nasavoid/syndicate
-	name = "Syndicate NASA Voidsuit"
-	icon_state = "syndicate-void"
-	inhand_icon_state = "syndicate-void"
-	desc = "An old, NASA designed space suit. This one appears to be Syndicate inclined."
-	allowed = list(/obj/item/flashlight, /obj/item/tank/internals, /obj/item/multitool)
-
-
 	//Space santa outfit suit
 /obj/item/clothing/head/helmet/space/santahat
 	name = "Santa's hat"
