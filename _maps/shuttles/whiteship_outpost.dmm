@@ -52,9 +52,6 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/abandoned/crew)
-"jA" = (
-/turf/open/space/basic,
-/area/space)
 "ky" = (
 /obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/mineral/titanium,
@@ -181,6 +178,9 @@
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/abandoned/bridge)
+"KP" = (
+/turf/template_noop,
+/area/template_noop)
 "Mq" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
@@ -296,7 +296,7 @@
 /area/shuttle/abandoned/bridge)
 
 (1,1,1) = {"
-jA
+KP
 BV
 om
 om
@@ -304,7 +304,7 @@ om
 om
 om
 BV
-jA
+KP
 "}
 (2,1,1) = {"
 BV
@@ -406,7 +406,7 @@ YD
 BV
 "}
 (11,1,1) = {"
-jA
+KP
 YD
 Nd
 dx
@@ -414,10 +414,10 @@ Hf
 dx
 cK
 YD
-jA
+KP
 "}
 (12,1,1) = {"
-jA
+KP
 YD
 ky
 UO
@@ -425,7 +425,7 @@ Hf
 UO
 Es
 YD
-jA
+KP
 "}
 (13,1,1) = {"
 RU
@@ -549,7 +549,7 @@ Mq
 RU
 "}
 (24,1,1) = {"
-jA
+KP
 Mq
 Mq
 Cs
@@ -557,16 +557,16 @@ IS
 cN
 Mq
 Mq
-jA
+KP
 "}
 (25,1,1) = {"
-jA
-jA
+KP
+KP
 Mq
 Mq
 Mq
 Mq
 Mq
-jA
-jA
+KP
+KP
 "}
