@@ -12574,6 +12574,17 @@
 /obj/structure/table/glass,
 /turf/open/floor/plasteel/white,
 /area/medical/surgery/room_b)
+"Sm" = (
+/obj/docking_port/stationary{
+	dir = 4;
+	dwidth = 11;
+	height = 22;
+	id = "whiteship_home";
+	name = "SS13: Auxiliary Dock, Station-Port";
+	width = 35
+	},
+/turf/open/space/basic,
+/area/space)
 "Sn" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -24328,7 +24339,7 @@ aq
 aq
 aq
 aq
-aq
+Sm
 aq
 aq
 aq
