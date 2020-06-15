@@ -1,0 +1,572 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aR" = (
+/obj/structure/bed,
+/obj/item/bedsheet,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/crew)
+"bs" = (
+/obj/machinery/computer/atmos_control,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"bK" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/open/floor/plating/airless,
+/area/shuttle/abandoned/crew)
+"cB" = (
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"cK" = (
+/obj/structure/cable,
+/obj/machinery/power/port_gen/pacman,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/engine)
+"cL" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"cN" = (
+/obj/machinery/computer/camera_advanced/shuttle_docker/whiteship{
+	dir = 8;
+	x_offset = -7;
+	y_offset = -8
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"cP" = (
+/obj/structure/cable,
+/obj/machinery/holopad,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/bridge)
+"dx" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/engine)
+"dL" = (
+/obj/machinery/autolathe,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"gd" = (
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/crew)
+"jA" = (
+/turf/open/space/basic,
+/area/space)
+"ky" = (
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/engine)
+"mm" = (
+/obj/machinery/stasis,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"mJ" = (
+/obj/machinery/door/airlock/titanium,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/crew)
+"nj" = (
+/obj/structure/chair/stool,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"nO" = (
+/obj/machinery/rnd/production/circuit_imprinter,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"om" = (
+/obj/structure/shuttle/engine/propulsion{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/abandoned/crew)
+"rN" = (
+/obj/machinery/rnd/destructive_analyzer,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"sn" = (
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/bridge)
+"sI" = (
+/obj/structure/cable,
+/obj/structure/table/reinforced,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/bridge)
+"tX" = (
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/plating,
+/area/shuttle/abandoned/crew)
+"uS" = (
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/engine)
+"vn" = (
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 30
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"wj" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/crew)
+"xX" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"yd" = (
+/obj/machinery/computer/apc_control{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"zD" = (
+/obj/machinery/door/airlock/external/glass,
+/turf/open/floor/plating/airless,
+/area/shuttle/abandoned/crew)
+"Bd" = (
+/obj/structure/cable,
+/obj/structure/chair/stool,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/bridge)
+"BV" = (
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/abandoned/crew)
+"BX" = (
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/crew)
+"Cs" = (
+/obj/machinery/computer/crew{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"Es" = (
+/obj/structure/cable,
+/obj/machinery/power/port_gen/pacman,
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/engine)
+"ES" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/north,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/crew)
+"FM" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/crew)
+"GQ" = (
+/obj/machinery/rnd/production/protolathe,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"Hf" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/engine)
+"IR" = (
+/obj/machinery/computer/operating{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"IS" = (
+/obj/machinery/computer/shuttle/white_ship{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/bridge)
+"Mq" = (
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/plating,
+/area/shuttle/abandoned/bridge)
+"Nd" = (
+/obj/structure/closet/emcloset/anchored,
+/obj/machinery/power/apc/auto_name/north,
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/engine)
+"Nj" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/crew)
+"Np" = (
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"Pg" = (
+/obj/item/circuitboard/machine/ore_silo,
+/obj/structure/frame/machine,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"PI" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/crew)
+"QB" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/bridge)
+"Rl" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/bridge)
+"RU" = (
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"RV" = (
+/obj/machinery/door/airlock/titanium/glass,
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/engine)
+"TN" = (
+/obj/machinery/door/airlock/external/glass,
+/obj/docking_port/mobile{
+	callTime = 250;
+	dir = 2;
+	dwidth = 25;
+	height = 9;
+	id = "whiteship";
+	launch_status = 0;
+	movement_force = list("KNOCKDOWN" = 0, "THROW" = 0);
+	name = "Whiteship";
+	port_direction = 8;
+	preferred_direction = 4;
+	width = 34
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/abandoned/crew)
+"Uk" = (
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/crew)
+"UO" = (
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/engine)
+"UW" = (
+/obj/machinery/computer/rdconsole/core{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"UY" = (
+/turf/open/floor/plating/airless,
+/area/shuttle/abandoned/crew)
+"VH" = (
+/obj/machinery/airalarm/directional/north,
+/obj/structure/closet,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"Xw" = (
+/obj/machinery/power/apc/auto_name/north,
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"XG" = (
+/obj/machinery/mecha_part_fabricator,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"YD" = (
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/abandoned/engine)
+"YU" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/east,
+/turf/open/floor/plating/airless,
+/area/shuttle/abandoned/crew)
+"Zl" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
+"ZY" = (
+/obj/machinery/door/airlock/titanium/glass,
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/bridge)
+
+(1,1,1) = {"
+jA
+BV
+om
+om
+om
+om
+om
+BV
+jA
+"}
+(2,1,1) = {"
+BV
+BV
+BV
+YU
+YU
+YU
+BV
+BV
+BV
+"}
+(3,1,1) = {"
+BV
+bK
+BV
+tX
+tX
+tX
+BV
+bK
+BV
+"}
+(4,1,1) = {"
+TN
+UY
+zD
+Uk
+BX
+Uk
+zD
+UY
+zD
+"}
+(5,1,1) = {"
+BV
+BV
+BV
+wj
+Nj
+Uk
+BV
+BV
+BV
+"}
+(6,1,1) = {"
+tX
+Uk
+mJ
+Uk
+FM
+Uk
+mJ
+Uk
+tX
+"}
+(7,1,1) = {"
+tX
+aR
+BV
+Uk
+gd
+Uk
+BV
+aR
+tX
+"}
+(8,1,1) = {"
+BV
+BV
+BV
+ES
+Nj
+Uk
+BV
+BV
+BV
+"}
+(9,1,1) = {"
+zD
+UY
+zD
+Uk
+PI
+Uk
+zD
+UY
+zD
+"}
+(10,1,1) = {"
+BV
+YD
+YD
+uS
+RV
+uS
+YD
+YD
+BV
+"}
+(11,1,1) = {"
+jA
+YD
+Nd
+dx
+Hf
+dx
+cK
+YD
+jA
+"}
+(12,1,1) = {"
+jA
+YD
+ky
+UO
+Hf
+UO
+Es
+YD
+jA
+"}
+(13,1,1) = {"
+RU
+RU
+RU
+Np
+ZY
+Np
+RU
+RU
+RU
+"}
+(14,1,1) = {"
+RU
+GQ
+cB
+rN
+QB
+Pg
+cB
+dL
+RU
+"}
+(15,1,1) = {"
+RU
+nO
+cB
+UW
+QB
+XG
+cB
+mm
+RU
+"}
+(16,1,1) = {"
+RU
+VH
+cB
+cB
+QB
+cB
+cB
+IR
+RU
+"}
+(17,1,1) = {"
+Mq
+cB
+cB
+nj
+Bd
+nj
+cB
+cB
+Mq
+"}
+(18,1,1) = {"
+Mq
+cB
+cB
+cL
+sI
+cL
+cB
+cB
+Mq
+"}
+(19,1,1) = {"
+Mq
+cB
+cB
+nj
+Bd
+nj
+cB
+cB
+Mq
+"}
+(20,1,1) = {"
+RU
+cB
+cB
+cB
+QB
+cB
+cB
+cB
+RU
+"}
+(21,1,1) = {"
+RU
+Xw
+xX
+xX
+cP
+cB
+cB
+cB
+RU
+"}
+(22,1,1) = {"
+RU
+vn
+cB
+cB
+sn
+cB
+cB
+cL
+RU
+"}
+(23,1,1) = {"
+RU
+Mq
+bs
+Zl
+Rl
+Zl
+yd
+Mq
+RU
+"}
+(24,1,1) = {"
+jA
+Mq
+Mq
+Cs
+IS
+cN
+Mq
+Mq
+jA
+"}
+(25,1,1) = {"
+jA
+jA
+Mq
+Mq
+Mq
+Mq
+Mq
+jA
+jA
+"}
