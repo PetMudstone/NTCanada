@@ -45,6 +45,6 @@ endmap
 map multiz_debug
 endmap
 
-map outpost
-votable
+map outpoststation
+	votable
 endmap

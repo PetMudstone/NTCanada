@@ -1256,16 +1256,12 @@
 /turf/open/floor/plating,
 /area/engine/storage)
 "eE" = (
-/obj/docking_port/stationary{
-	dir = 4;
-	dwidth = 12;
-	height = 18;
-	id = "emergency_home";
-	name = "BoxStation emergency evac bay";
-	width = 32
+/obj/machinery/camera{
+	c_tag = "Escape Arm Airlocks";
+	dir = 8
 	},
-/turf/open/space/basic,
-/area/space)
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
 "eF" = (
 /obj/machinery/vending/wardrobe/law_wardrobe,
 /turf/open/floor/wood,
@@ -4808,7 +4804,13 @@
 /turf/open/floor/plasteel,
 /area/security/main)
 "rb" = (
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/camera{
+	c_tag = "Escape Arm Holding Area";
+	dir = 4
+	},
+/obj/structure/chair{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "rc" = (
@@ -6027,12 +6029,9 @@
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/ai_upload)
 "vo" = (
-/obj/machinery/camera{
-	c_tag = "Escape Arm Airlocks";
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 9
+/obj/machinery/door/airlock/security{
+	name = "Security Checkpoint";
+	req_access_txt = "1"
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
@@ -9834,10 +9833,7 @@
 /turf/open/floor/plating,
 /area/crew_quarters/kitchen)
 "IE" = (
-/obj/machinery/camera{
-	c_tag = "Escape Arm Holding Area";
-	dir = 4
-	},
+/obj/machinery/door/airlock/external/glass,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "IF" = (
@@ -11933,6 +11929,17 @@
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
+"PY" = (
+/obj/docking_port/stationary{
+	dir = 2;
+	dwidth = 12;
+	height = 11;
+	id = "emergency_home";
+	name = "Outpost Station emergency evac bay";
+	width = 40
+	},
+/turf/open/space/basic,
+/area/space)
 "PZ" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plasteel,
@@ -13430,12 +13437,9 @@
 /turf/open/floor/plasteel/checker,
 /area/crew_quarters/theatre)
 "Vu" = (
-/obj/machinery/door/airlock/security{
-	name = "Security Checkpoint";
-	req_access_txt = "1"
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit)
+/obj/structure/lattice,
+/turf/open/space,
+/area/space/nearstation)
 "Vv" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -35346,9 +35350,9 @@ eK
 eK
 eK
 uQ
-uQ
-uQ
-uQ
+aq
+aq
+aq
 aq
 aq
 aq
@@ -35547,10 +35551,10 @@ eK
 eK
 eK
 eK
-rb
-eK
-eK
-rb
+uQ
+aq
+aq
+aq
 aq
 aq
 aq
@@ -35750,9 +35754,9 @@ eK
 eK
 eK
 uQ
-uQ
-uQ
-uQ
+aq
+aq
+aq
 aq
 aq
 aq
@@ -36356,9 +36360,9 @@ eK
 eK
 eK
 uQ
-uQ
-uQ
-uQ
+aq
+aq
+aq
 aq
 aq
 aq
@@ -36557,10 +36561,10 @@ eK
 eK
 eK
 eK
-rb
-eK
-eK
-rb
+uQ
+uQ
+uQ
+uQ
 aq
 aq
 aq
@@ -36759,10 +36763,10 @@ QA
 QA
 eK
 eK
-uQ
-uQ
-uQ
-uQ
+IE
+eK
+eK
+IE
 aq
 aq
 aq
@@ -36962,9 +36966,9 @@ ne
 eK
 eK
 uQ
-aq
-aq
-aq
+uQ
+uQ
+uQ
 aq
 aq
 aq
@@ -37163,10 +37167,10 @@ eK
 eK
 eK
 eK
-uQ
-aq
-aq
-aq
+IE
+eK
+eK
+IE
 aq
 aq
 aq
@@ -37567,11 +37571,11 @@ eK
 eK
 eK
 eK
-rb
-eK
-eK
-rb
-eE
+uQ
+aq
+Vu
+aq
+aq
 aq
 aq
 aq
@@ -37770,9 +37774,9 @@ eK
 eK
 eK
 uQ
-uQ
-uQ
-uQ
+Vu
+Vu
+aq
 aq
 aq
 aq
@@ -37973,7 +37977,7 @@ eK
 eK
 uQ
 aq
-aq
+Vu
 aq
 aq
 aq
@@ -38167,16 +38171,16 @@ eK
 eK
 eK
 wz
-vo
-eN
+BO
 eK
-eN
+eK
+eK
 eK
 eK
 uQ
-aq
-aq
-aq
+uQ
+uQ
+uQ
 aq
 aq
 aq
@@ -38369,17 +38373,17 @@ eK
 eK
 eK
 LX
-Hx
-Hx
-Vu
-Hx
-uQ
-uQ
-uQ
-aq
-aq
-aq
-aq
+eE
+eN
+eK
+eN
+eK
+eK
+IE
+eK
+eK
+IE
+PY
 aq
 aq
 aq
@@ -38572,15 +38576,15 @@ eK
 eK
 LX
 Hx
-IE
-eK
-eK
-Cg
-Cg
+Hx
+vo
+Hx
 uQ
-aq
-aq
-aq
+uQ
+uQ
+uQ
+uQ
+uQ
 aq
 aq
 aq
@@ -38774,15 +38778,15 @@ Ji
 Ji
 LX
 uQ
+rb
+eK
+Cg
 eK
 eK
+IE
 eK
 eK
-eK
-uQ
-uQ
-uQ
-uQ
+IE
 aq
 aq
 aq
@@ -38981,10 +38985,10 @@ eK
 eK
 eK
 eK
-rb
-eK
-eK
-rb
+uQ
+uQ
+uQ
+uQ
 aq
 aq
 aq
@@ -39184,9 +39188,9 @@ eK
 eK
 eK
 uQ
-uQ
-uQ
-uQ
+aq
+aq
+aq
 aq
 aq
 aq
