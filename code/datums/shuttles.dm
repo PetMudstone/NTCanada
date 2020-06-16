@@ -394,6 +394,12 @@
 	description = "A large shuttle with a center biodome that is flourishing with life. Frolick with the monkeys! (Extra monkeys are stored on the bridge.)"
 	admin_notes = "Pretty freakin' large, almost as big as Raven or Cere. Excercise caution with it."
 	credit_cost = 8000
+	
+/datum/map_template/shuttle/emergency/outpost
+	suffix = "outpost"
+	name = "Outpost Station Emergency Shuttle"
+	description = "A bit more luxurious than other emergency shuttles, this comes with a highly equipped medbay, a microwave in the engineering section, and bedrooms for command."
+	credit_cost = 2000
 
 /datum/map_template/shuttle/ferry/base
 	suffix = "base"
@@ -458,6 +464,10 @@
 /datum/map_template/shuttle/whiteship/pod
 	suffix = "whiteship_pod"
 	name = "Salvage Pod"
+	
+/datum/map_template/shuttle/whiteship/outpost
+	suffix = "outpost"
+	name = "Exploration Vessel"
 
 /datum/map_template/shuttle/cargo/kilo
 	suffix = "kilo"
