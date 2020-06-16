@@ -460,6 +460,13 @@
 /obj/structure/closet/emcloset/anchored,
 /turf/open/floor/plasteel,
 /area/storage/tools)
+"bR" = (
+/obj/machinery/door/airlock/maintenance{
+	req_access_txt = "12"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/aft/upper)
 "bS" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -1699,6 +1706,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
+"go" = (
+/obj/machinery/light,
+/turf/open/floor/engine,
+/area/science/xenobiology)
 "gp" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -2362,6 +2373,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
+"iF" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Library Maintenance";
+	req_access_txt = "12"
+	},
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/library)
 "iG" = (
 /obj/machinery/requests_console{
 	department = "Science";
@@ -3025,6 +3044,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
+"kY" = (
+/obj/machinery/power/apc/auto_name/north,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/aft/upper)
 "kZ" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -3352,6 +3376,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/chapel)
+"mc" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/science/xenobiology)
 "md" = (
 /obj/machinery/door/airlock/research/glass{
 	name = "Robotics Lab";
@@ -3488,6 +3518,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
+"mA" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/aft/upper)
 "mB" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
@@ -3886,11 +3920,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/maintenance/aft/upper)
-"oa" = (
-/obj/machinery/power/apc/auto_name/south,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/maintenance/port/aft)
 "ob" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel/white,
@@ -3944,6 +3973,12 @@
 	},
 /turf/open/floor/plating,
 /area/quartermaster/sorting)
+"ol" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/power/apc/auto_name/east,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "om" = (
 /obj/machinery/light{
 	dir = 4
@@ -5454,6 +5489,13 @@
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
+"tj" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/library)
 "tk" = (
 /obj/structure/chair/wood,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -7626,6 +7668,11 @@
 	},
 /turf/open/floor/wood,
 /area/lawoffice)
+"AN" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/north,
+/turf/open/floor/plating,
+/area/maintenance/department/security)
 "AO" = (
 /obj/machinery/suit_storage_unit/ce,
 /turf/open/floor/plasteel/showroomfloor,
@@ -8449,12 +8496,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/engine/storage)
-"DJ" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/port)
 "DK" = (
 /obj/structure/table/optable,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -9119,10 +9160,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/research)
-"FW" = (
-/obj/structure/cable,
-/turf/closed/wall,
-/area/hallway/primary/port)
 "FX" = (
 /obj/structure/cable,
 /turf/open/floor/plasteel/white,
@@ -9956,12 +9993,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/janitor)
-"Je" = (
-/obj/machinery/computer/bookmanagement,
-/obj/structure/table/wood,
-/obj/structure/cable,
-/turf/open/floor/wood,
-/area/library)
 "Jf" = (
 /obj/machinery/camera/autoname{
 	dir = 5
@@ -10137,12 +10168,6 @@
 /obj/structure/closet/emcloset/anchored,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
-"JO" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/library)
 "JP" = (
 /obj/machinery/door/airlock{
 	id_tag = "Dorm5";
@@ -10560,11 +10585,6 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
-"Lo" = (
-/obj/structure/table/wood,
-/obj/structure/cable,
-/turf/open/floor/wood,
-/area/library)
 "Lp" = (
 /obj/structure/cable,
 /turf/open/floor/plasteel,
@@ -11404,6 +11424,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
+"Og" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/north,
+/turf/open/floor/plating,
+/area/maintenance/department/chapel)
 "Oh" = (
 /obj/machinery/smartfridge/chemistry/virology/preloaded,
 /turf/open/floor/plasteel/white,
@@ -11670,11 +11695,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/sorting)
-"Pg" = (
-/obj/structure/table/wood,
-/obj/structure/cable,
-/turf/open/floor/plasteel/dark,
-/area/chapel)
 "Ph" = (
 /obj/machinery/light{
 	dir = 1
@@ -11991,12 +12011,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall,
 /area/hydroponics)
-"Qj" = (
-/obj/machinery/door/airlock/maintenance{
-	req_access_txt = "12"
-	},
-/turf/open/floor/plating,
-/area/hallway/primary/port)
 "Qk" = (
 /obj/structure/lattice/catwalk,
 /obj/item/stack/cable_coil,
@@ -12131,11 +12145,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel,
 /area/teleporter)
-"QI" = (
-/obj/structure/cable,
-/obj/machinery/vending/cigarette,
-/turf/open/floor/plasteel,
-/area/hallway/primary/port)
 "QJ" = (
 /obj/machinery/light{
 	dir = 4
@@ -12331,6 +12340,13 @@
 "Ro" = (
 /turf/closed/wall/r_wall,
 /area/maintenance/department/medical/morgue)
+"Rp" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plasteel,
+/area/hallway/primary/port)
 "Rq" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -12903,6 +12919,13 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
+"Tv" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/plasteel,
+/area/hallway/primary/aft)
 "Tw" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood,
@@ -13045,10 +13068,6 @@
 /obj/machinery/door/poddoor/shutters,
 /turf/open/floor/plasteel,
 /area/engine/atmos)
-"TV" = (
-/obj/structure/cable,
-/turf/closed/wall,
-/area/library)
 "TW" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -13293,11 +13312,6 @@
 "UR" = (
 /turf/open/floor/carpet/cyan,
 /area/crew_quarters/heads/cmo)
-"US" = (
-/obj/structure/bookcase/random/reference,
-/obj/structure/cable,
-/turf/open/floor/wood,
-/area/library)
 "UT" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -13335,13 +13349,10 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
-"Vb" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Library Maintenance";
-	req_access_txt = "12"
-	},
-/turf/open/floor/wood,
-/area/library)
+"Va" = (
+/obj/machinery/vending/cigarette,
+/turf/open/floor/plasteel,
+/area/hallway/primary/port)
 "Vc" = (
 /turf/closed/wall,
 /area/medical/chemistry)
@@ -13410,6 +13421,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
+"Vo" = (
+/obj/structure/table,
+/obj/machinery/light,
+/turf/open/floor/plasteel,
+/area/security/prison)
 "Vp" = (
 /turf/open/floor/plating,
 /area/maintenance/aft/upper)
@@ -14353,6 +14369,11 @@
 /obj/machinery/stasis,
 /turf/open/floor/plasteel/white,
 /area/medical/exam_room)
+"YB" = (
+/obj/machinery/computer/bookmanagement,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/library)
 "YC" = (
 /obj/item/beacon,
 /turf/open/floor/plasteel,
@@ -22787,11 +22808,11 @@ uq
 Hp
 uq
 uq
-Ej
-Ej
-Ej
-Ej
-Ej
+vd
+vd
+vd
+vd
+vd
 Gn
 vd
 Ej
@@ -22989,12 +23010,12 @@ LQ
 uB
 uB
 Cj
-Qj
+BT
 Cj
 Cj
 Cj
-Ej
-Ej
+vd
+vd
 vd
 vd
 vd
@@ -23191,7 +23212,7 @@ OF
 OF
 VE
 Cj
-rt
+lf
 MS
 gs
 Cj
@@ -23393,7 +23414,7 @@ iv
 iv
 iv
 Cj
-rt
+lf
 px
 XD
 Cj
@@ -23595,7 +23616,7 @@ iv
 yp
 yH
 Cj
-rt
+lf
 rt
 Dy
 Cj
@@ -23784,7 +23805,7 @@ yn
 mC
 Ej
 Ej
-oa
+Ej
 Gn
 vd
 iv
@@ -23797,7 +23818,7 @@ iv
 Ot
 cO
 Cj
-DJ
+Rp
 rt
 Dy
 Cj
@@ -23986,8 +24007,8 @@ he
 mC
 Ej
 Ej
-vd
-vd
+Ej
+Ej
 vd
 iv
 Ij
@@ -23999,7 +24020,7 @@ iv
 Ij
 cO
 Cj
-rt
+lf
 rt
 Dy
 Cj
@@ -24201,7 +24222,7 @@ iv
 iv
 qC
 Cj
-rt
+lf
 rt
 Dy
 Cj
@@ -26851,17 +26872,17 @@ zp
 zp
 gf
 Wp
-GG
+mc
 ur
-GG
+go
 Wp
+mc
 GG
-GG
-GG
+go
 Wp
-GG
+mc
 ur
-GG
+go
 Wp
 aq
 aq
@@ -27423,8 +27444,8 @@ Cj
 zg
 hG
 fP
-FW
-QI
+Cj
+Va
 lf
 lf
 lf
@@ -27627,7 +27648,7 @@ rS
 wf
 Cj
 Lt
-rt
+lf
 sj
 rt
 rt
@@ -27829,7 +27850,7 @@ hG
 fP
 Cj
 ZS
-rt
+lf
 rt
 pY
 pW
@@ -28031,7 +28052,7 @@ Cj
 ex
 Cj
 Cj
-rt
+lf
 rt
 Dy
 fS
@@ -28231,9 +28252,9 @@ rt
 lf
 lf
 lf
-rt
-rt
-rt
+lf
+lf
+lf
 rt
 Dy
 fS
@@ -28458,26 +28479,26 @@ Ia
 CZ
 AW
 Wp
+mc
 GG
 GG
 GG
-GG
-GG
+go
 Wp
 NF
 KZ
 Wp
+mc
 GG
-GG
-GG
+go
 Wp
-GG
+mc
 ur
-GG
+go
 Wp
+mc
 GG
-GG
-GG
+go
 Wp
 aq
 aq
@@ -29064,11 +29085,11 @@ GT
 Hy
 VO
 Wp
+mc
 GG
 GG
 GG
-GG
-GG
+go
 Wp
 ee
 pK
@@ -32833,7 +32854,7 @@ uH
 YQ
 YQ
 qd
-kN
+ol
 kN
 kN
 kN
@@ -33908,7 +33929,7 @@ BQ
 KE
 KE
 ay
-RV
+AN
 YI
 YI
 YI
@@ -34298,13 +34319,13 @@ HZ
 Kb
 MI
 og
-nB
+Vo
 LL
 sP
 Xh
 Cl
 PH
-nB
+Vo
 LL
 Gb
 wU
@@ -36946,10 +36967,10 @@ ay
 ay
 eH
 ws
-Db
-WB
-Uu
-Vp
+PE
+Tv
+bR
+mA
 jV
 Ly
 fp
@@ -37151,7 +37172,7 @@ ws
 Db
 iZ
 jV
-Vp
+mA
 jV
 jV
 jV
@@ -37353,10 +37374,10 @@ ws
 Sa
 WB
 jV
-Vp
+mA
 jV
-Vp
-Vp
+kY
+mA
 Vp
 jV
 eK
@@ -37555,10 +37576,10 @@ ws
 Db
 WB
 jV
-Vp
+mA
 jV
 jV
-Vp
+mA
 Vp
 jV
 Um
@@ -37757,10 +37778,10 @@ ws
 Db
 WB
 jV
-Vp
-Vp
-Vp
-Vp
+mA
+mA
+mA
+mA
 Vp
 jV
 UF
@@ -39572,15 +39593,15 @@ aq
 aq
 Qv
 ws
-Db
-WB
-eK
-ue
-eK
-eK
-eK
-eK
-eK
+PE
+Tv
+Ji
+Ln
+Ji
+Ji
+Ji
+Ji
+Ji
 Ji
 eK
 SZ
@@ -39783,7 +39804,7 @@ rG
 Kx
 rG
 rG
-ab
+rG
 rG
 BO
 zK
@@ -39985,7 +40006,7 @@ il
 il
 il
 il
-EQ
+il
 il
 il
 il
@@ -40187,7 +40208,7 @@ sK
 Eo
 Eo
 Xi
-Pg
+Eo
 Eo
 ea
 il
@@ -40389,7 +40410,7 @@ sK
 sK
 sK
 sK
-se
+sK
 sK
 sK
 il
@@ -40588,10 +40609,10 @@ il
 il
 il
 KX
-se
-se
-se
-se
+sK
+sK
+sK
+sK
 sK
 Eo
 il
@@ -42190,15 +42211,15 @@ Uy
 cg
 cg
 GX
-TV
-Je
-Sr
-Lo
-Sr
-Sr
-Sr
-US
-Sr
+Tf
+YB
+Vd
+Lm
+Vd
+Vd
+Vd
+ZH
+Vd
 ni
 Tf
 sK
@@ -42799,9 +42820,9 @@ cg
 Tf
 wo
 WI
-Vd
-JO
-Vd
+Sr
+tj
+Sr
 Vd
 Vd
 Sr
@@ -43001,7 +43022,7 @@ Hz
 Tf
 Tf
 Tf
-Vb
+iF
 Tf
 jf
 Sr
@@ -43199,11 +43220,11 @@ Ok
 Uy
 cg
 GX
-Hz
-Hz
-Hz
-Hz
-Hz
+GX
+GX
+GX
+GX
+GX
 jT
 dt
 Vd
@@ -44208,7 +44229,7 @@ wZ
 TK
 cg
 cg
-GX
+Og
 cg
 cg
 nX
