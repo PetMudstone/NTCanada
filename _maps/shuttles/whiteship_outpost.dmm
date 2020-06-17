@@ -24,19 +24,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/abandoned/bridge)
-"cN" = (
-/obj/machinery/computer/camera_advanced/shuttle_docker/whiteship{
-	dir = 8;
-	x_offset = -7;
-	y_offset = -8
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned/bridge)
-"cP" = (
-/obj/structure/cable,
-/obj/machinery/holopad,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned/bridge)
 "dx" = (
 /obj/structure/cable,
 /turf/open/floor/mineral/titanium,
@@ -146,6 +133,10 @@
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/abandoned/engine)
+"Et" = (
+/obj/machinery/holopad,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/abandoned/bridge)
 "ES" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/north,
@@ -158,6 +149,15 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/abandoned/crew)
+"FQ" = (
+/obj/structure/table/reinforced,
+/obj/item/gps{
+	gpstag = "NTREC1";
+	pixel_x = -9;
+	pixel_y = 4
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
 "GQ" = (
 /obj/machinery/rnd/production/protolathe,
 /turf/open/floor/mineral/titanium,
@@ -227,6 +227,14 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/abandoned/engine)
+"Ti" = (
+/obj/machinery/computer/camera_advanced/shuttle_docker/whiteship{
+	dir = 8;
+	x_offset = 0;
+	y_offset = 1
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/bridge)
 "TN" = (
 /obj/machinery/door/airlock/external/glass,
 /obj/docking_port/mobile{
@@ -508,7 +516,7 @@ Mq
 RU
 cB
 cB
-cB
+xX
 QB
 cB
 cB
@@ -520,7 +528,7 @@ RU
 Xw
 xX
 xX
-cP
+Et
 cB
 cB
 cB
@@ -534,7 +542,7 @@ cB
 sn
 cB
 cB
-cL
+FQ
 RU
 "}
 (23,1,1) = {"
@@ -554,7 +562,7 @@ Mq
 Mq
 Cs
 IS
-cN
+Ti
 Mq
 Mq
 KP
