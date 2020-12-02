@@ -93,14 +93,8 @@
 /obj/item/gun/ballistic/automatic/wt550
 	name = "security auto rifle"
 	desc = "An outdated personal defence weapon. Uses 4.6x30mm rounds and is designated the WT-550 Automatic Rifle."
-
-	/// PM: Frontier specific icons.
-	icon = 'icons/FrontierProgramIcons/icons/obj/guns/projectile.dmi'
-	lefthand_file = 'icons/FrontierProgramIcons/icons/mob/inhands/weapons/guns_lefthand.dmi'
-	righthand_file = 'icons/FrontierProgramIcons/icons/mob/inhands/weapons/guns_righthand.dmi'
-
 	icon_state = "wt550"
-	inhand_icon_state = "wt550" // PM: New in-hands.
+	inhand_icon_state = "arg"
 	mag_type = /obj/item/ammo_box/magazine/wt550m9
 	fire_delay = 2
 	can_suppress = FALSE
@@ -328,13 +322,6 @@
 /obj/item/gun/ballistic/automatic/sniper_rifle
 	name = "sniper rifle"
 	desc = "A long ranged weapon that does significant damage. No, you can't quickscope."
-
-	/// PM: Frontier specific icons.
-	icon = 'icons/FrontierProgramIcons/icons/obj/guns/48x32_projectile.dmi'
-	worn_icon = 'icons/FrontierProgramIcons/icons/mob/clothing/back.dmi'
-	lefthand_file = 'icons/FrontierProgramIcons/icons/mob/inhands/weapons/guns_lefthand.dmi'
-	righthand_file = 'icons/FrontierProgramIcons/icons/mob/inhands/weapons/guns_righthand.dmi'
-	
 	icon_state = "sniper"
 	inhand_icon_state = "sniper"
 	worn_icon_state = null

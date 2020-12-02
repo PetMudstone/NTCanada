@@ -49,16 +49,16 @@
 /obj/item/gun/ballistic/automatic/c20r
 	icon = 'modular_skyrat/modules/aesthetics/guns/icons/guns.dmi'
 
-/obj/item/gun/ballistic/automatic/m90
-	icon = 'modular_skyrat/modules/aesthetics/guns/icons/guns.dmi'
-/obj/item/gun/ballistic/revolver/detective
-	icon = 'modular_skyrat/modules/aesthetics/guns/icons/guns.dmi'
+////obj/item/gun/ballistic/automatic/m90
+	///icon = 'modular_skyrat/modules/aesthetics/guns/icons/guns.dmi' PM: overriden by Frontier sprites.
+////obj/item/gun/ballistic/revolver/detective
+	///icon = 'modular_skyrat/modules/aesthetics/guns/icons/guns.dmi' PM: overriden by Frontier sprites.
 
-/obj/item/gun/ballistic/automatic/pistol/aps
-	icon = 'modular_skyrat/modules/aesthetics/guns/icons/guns.dmi'
+////obj/item/gun/ballistic/automatic/pistol/aps
+	///icon = 'modular_skyrat/modules/aesthetics/guns/icons/guns.dmi' PM: overriden by Frontier sprites.
 
-/obj/item/gun/ballistic/automatic/pistol
-	icon = 'modular_skyrat/modules/aesthetics/guns/icons/guns.dmi'
+////obj/item/gun/ballistic/automatic/pistol
+	//icon = 'modular_skyrat/modules/aesthetics/guns/icons/guns.dmi' PM: overriden by Frontier sprites.
 
 /obj/item/gun/energy/e_gun/nuclear
 	icon = 'modular_skyrat/modules/aesthetics/guns/icons/nucgun.dmi'
